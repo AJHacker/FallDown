@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD147E6164EA30B005448E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147E5164EA30B005448E7 /* UIKit.framework */; };
+		5FD147E8164EA30B005448E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147E7164EA30B005448E7 /* Foundation.framework */; };
+		5FD147EA164EA30B005448E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147E9164EA30B005448E7 /* CoreGraphics.framework */; };
+		5FD147EC164EA30B005448E7 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147EB164EA30B005448E7 /* GLKit.framework */; };
+		5FD147EE164EA30B005448E7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147ED164EA30B005448E7 /* OpenGLES.framework */; };
+		5FD147F4164EA30B005448E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD147F2164EA30B005448E7 /* InfoPlist.strings */; };
+		5FD147F6164EA30B005448E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD147F5164EA30B005448E7 /* main.m */; };
+		5FD147FA164EA30B005448E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD147F9164EA30B005448E7 /* AppDelegate.m */; };
+		5FD147FD164EA30B005448E7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD147FB164EA30B005448E7 /* MainStoryboard.storyboard */; };
+		5FD147FF164EA30B005448E7 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5FD147FE164EA30B005448E7 /* Shader.fsh */; };
+		5FD14801164EA30B005448E7 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5FD14800164EA30B005448E7 /* Shader.vsh */; };
+		5FD14804164EA30B005448E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD14803164EA30B005448E7 /* ViewController.m */; };
+		5FD1480C164EA30B005448E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD1480B164EA30B005448E7 /* SenTestingKit.framework */; };
+		5FD1480D164EA30B005448E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147E5164EA30B005448E7 /* UIKit.framework */; };
+		5FD1480E164EA30B005448E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD147E7164EA30B005448E7 /* Foundation.framework */; };
+		5FD14816164EA30B005448E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FD14814164EA30B005448E7 /* InfoPlist.strings */; };
+		5FD14819164EA30B005448E7 /* FallDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD14818164EA30B005448E7 /* FallDownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD1480F164EA30B005448E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD147D8164EA30B005448E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD147E0164EA30B005448E7;
+			remoteInfo = FallDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD147E1164EA30B005448E7 /* FallDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD147E5164EA30B005448E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5FD147E7164EA30B005448E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5FD147E9164EA30B005448E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5FD147EB164EA30B005448E7 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		5FD147ED164EA30B005448E7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5FD147F1164EA30B005448E7 /* FallDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallDown-Info.plist"; sourceTree = "<group>"; };
+		5FD147F3164EA30B005448E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD147F5164EA30B005448E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FD147F7164EA30B005448E7 /* FallDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FallDown-Prefix.pch"; sourceTree = "<group>"; };
+		5FD147F8164EA30B005448E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FD147F9164EA30B005448E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FD147FC164EA30B005448E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5FD147FE164EA30B005448E7 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		5FD14800164EA30B005448E7 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		5FD14802164EA30B005448E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FD14803164EA30B005448E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FD1480A164EA30B005448E7 /* FallDownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallDownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD1480B164EA30B005448E7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FD14813164EA30B005448E7 /* FallDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallDownTests-Info.plist"; sourceTree = "<group>"; };
+		5FD14815164EA30B005448E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5FD14817164EA30B005448E7 /* FallDownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallDownTests.h; sourceTree = "<group>"; };
+		5FD14818164EA30B005448E7 /* FallDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FallDownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD147DE164EA30B005448E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD147E6164EA30B005448E7 /* UIKit.framework in Frameworks */,
+				5FD147E8164EA30B005448E7 /* Foundation.framework in Frameworks */,
+				5FD147EA164EA30B005448E7 /* CoreGraphics.framework in Frameworks */,
+				5FD147EC164EA30B005448E7 /* GLKit.framework in Frameworks */,
+				5FD147EE164EA30B005448E7 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD14806164EA30B005448E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD1480C164EA30B005448E7 /* SenTestingKit.framework in Frameworks */,
+				5FD1480D164EA30B005448E7 /* UIKit.framework in Frameworks */,
+				5FD1480E164EA30B005448E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD147D6164EA30B005448E7 = {
+			isa = PBXGroup;
+			children = (
+				5FD147EF164EA30B005448E7 /* FallDown */,
+				5FD14811164EA30B005448E7 /* FallDownTests */,
+				5FD147E4164EA30B005448E7 /* Frameworks */,
+				5FD147E2164EA30B005448E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD147E2164EA30B005448E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147E1164EA30B005448E7 /* FallDown.app */,
+				5FD1480A164EA30B005448E7 /* FallDownTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD147E4164EA30B005448E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147E5164EA30B005448E7 /* UIKit.framework */,
+				5FD147E7164EA30B005448E7 /* Foundation.framework */,
+				5FD147E9164EA30B005448E7 /* CoreGraphics.framework */,
+				5FD147EB164EA30B005448E7 /* GLKit.framework */,
+				5FD147ED164EA30B005448E7 /* OpenGLES.framework */,
+				5FD1480B164EA30B005448E7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD147EF164EA30B005448E7 /* FallDown */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147F8164EA30B005448E7 /* AppDelegate.h */,
+				5FD147F9164EA30B005448E7 /* AppDelegate.m */,
+				5FD147FB164EA30B005448E7 /* MainStoryboard.storyboard */,
+				5FD147FE164EA30B005448E7 /* Shader.fsh */,
+				5FD14800164EA30B005448E7 /* Shader.vsh */,
+				5FD14802164EA30B005448E7 /* ViewController.h */,
+				5FD14803164EA30B005448E7 /* ViewController.m */,
+				5FD147F0164EA30B005448E7 /* Supporting Files */,
+			);
+			path = FallDown;
+			sourceTree = "<group>";
+		};
+		5FD147F0164EA30B005448E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147F1164EA30B005448E7 /* FallDown-Info.plist */,
+				5FD147F2164EA30B005448E7 /* InfoPlist.strings */,
+				5FD147F5164EA30B005448E7 /* main.m */,
+				5FD147F7164EA30B005448E7 /* FallDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD14811164EA30B005448E7 /* FallDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD14817164EA30B005448E7 /* FallDownTests.h */,
+				5FD14818164EA30B005448E7 /* FallDownTests.m */,
+				5FD14812164EA30B005448E7 /* Supporting Files */,
+			);
+			path = FallDownTests;
+			sourceTree = "<group>";
+		};
+		5FD14812164EA30B005448E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD14813164EA30B005448E7 /* FallDownTests-Info.plist */,
+				5FD14814164EA30B005448E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD147E0164EA30B005448E7 /* FallDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD1481C164EA30B005448E7 /* Build configuration list for PBXNativeTarget "FallDown" */;
+			buildPhases = (
+				5FD147DD164EA30B005448E7 /* Sources */,
+				5FD147DE164EA30B005448E7 /* Frameworks */,
+				5FD147DF164EA30B005448E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallDown;
+			productName = FallDown;
+			productReference = 5FD147E1164EA30B005448E7 /* FallDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD14809164EA30B005448E7 /* FallDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD1481F164EA30B005448E7 /* Build configuration list for PBXNativeTarget "FallDownTests" */;
+			buildPhases = (
+				5FD14805164EA30B005448E7 /* Sources */,
+				5FD14806164EA30B005448E7 /* Frameworks */,
+				5FD14807164EA30B005448E7 /* Resources */,
+				5FD14808164EA30B005448E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD14810164EA30B005448E7 /* PBXTargetDependency */,
+			);
+			name = FallDownTests;
+			productName = FallDownTests;
+			productReference = 5FD1480A164EA30B005448E7 /* FallDownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD147D8164EA30B005448E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = AJcoder;
+			};
+			buildConfigurationList = 5FD147DB164EA30B005448E7 /* Build configuration list for PBXProject "FallDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FD147D6164EA30B005448E7;
+			productRefGroup = 5FD147E2164EA30B005448E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD147E0164EA30B005448E7 /* FallDown */,
+				5FD14809164EA30B005448E7 /* FallDownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD147DF164EA30B005448E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD147F4164EA30B005448E7 /* InfoPlist.strings in Resources */,
+				5FD147FD164EA30B005448E7 /* MainStoryboard.storyboard in Resources */,
+				5FD147FF164EA30B005448E7 /* Shader.fsh in Resources */,
+				5FD14801164EA30B005448E7 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD14807164EA30B005448E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD14816164EA30B005448E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FD14808164EA30B005448E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD147DD164EA30B005448E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD147F6164EA30B005448E7 /* main.m in Sources */,
+				5FD147FA164EA30B005448E7 /* AppDelegate.m in Sources */,
+				5FD14804164EA30B005448E7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD14805164EA30B005448E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD14819164EA30B005448E7 /* FallDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD14810164EA30B005448E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD147E0164EA30B005448E7 /* FallDown */;
+			targetProxy = 5FD1480F164EA30B005448E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD147F2164EA30B005448E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD147F3164EA30B005448E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5FD147FB164EA30B005448E7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD147FC164EA30B005448E7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD14814164EA30B005448E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD14815164EA30B005448E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD1481A164EA30B005448E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FD1481B164EA30B005448E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD1481D164EA30B005448E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallDown/FallDown-Prefix.pch";
+				INFOPLIST_FILE = "FallDown/FallDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5FD1481E164EA30B005448E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallDown/FallDown-Prefix.pch";
+				INFOPLIST_FILE = "FallDown/FallDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5FD14820164EA30B005448E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FallDown.app/FallDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallDown/FallDown-Prefix.pch";
+				INFOPLIST_FILE = "FallDownTests/FallDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5FD14821164EA30B005448E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FallDown.app/FallDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallDown/FallDown-Prefix.pch";
+				INFOPLIST_FILE = "FallDownTests/FallDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD147DB164EA30B005448E7 /* Build configuration list for PBXProject "FallDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD1481A164EA30B005448E7 /* Debug */,
+				5FD1481B164EA30B005448E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD1481C164EA30B005448E7 /* Build configuration list for PBXNativeTarget "FallDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD1481D164EA30B005448E7 /* Debug */,
+				5FD1481E164EA30B005448E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD1481F164EA30B005448E7 /* Build configuration list for PBXNativeTarget "FallDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD14820164EA30B005448E7 /* Debug */,
+				5FD14821164EA30B005448E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD147D8164EA30B005448E7 /* Project object */;
+}
