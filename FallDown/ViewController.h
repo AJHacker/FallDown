@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
 
-@interface ViewController : GLKViewController
+@interface ViewController : GLKViewController{
+    IBOutlet UIButton *play;
+    IBOutlet UIButton *store;
+    IBOutlet UIButton *stats;
+}
+-(IBAction)statpress:(id)sender;
 
 @end

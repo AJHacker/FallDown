@@ -97,7 +97,12 @@ GLfloat gCubeVertexData[216] =
 @end
 
 @implementation ViewController
-
+-(IBAction)statpress:(id)sender{
+    [play setHidden:TRUE];
+    [store setHidden:TRUE];
+    
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
